@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">&lt;title&gt;Yutong (Iris) Wang&lt;/title&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">*{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-sizing:border-box;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">body{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family:'Inter',sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>line-height:1.7;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#222;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:#fff;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.container{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width:1000px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:0 24px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">nav{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position:sticky;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>top:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:white;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-bottom:1px solid #eee;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>z-index:100;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.nav-content{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content:space-between;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>align-items:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:18px 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.nav-links{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap:24px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.nav-links a{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration:none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#333;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight:500;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:120px 0 80px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero h1{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:4rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:12px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero p{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#555;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width:700px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.buttons{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top:30px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap:15px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>flex-wrap:wrap;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.btn{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:12px 24px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius:8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration:none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight:600;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.primary{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:#4f2683;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:white;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.secondary{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px solid #ccc;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#222;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">section{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:70px 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">h2{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:30px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#4f2683;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px solid #e5e5e5;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:25px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius:12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card h3{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:8px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.grid{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:grid;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns:repeat(auto-fit,minmax(300px,1fr));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap:20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">ul{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding-left:20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">footer{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:50px 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#777;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.highlight{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#4f2683;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight:600;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">@media(max-width:768px){</p>
+<p class="p2"><br></p>
+<p class="p1">.hero h1{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:2.5rem;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.nav-links{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:none;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;nav&gt;</p>
+<p class="p1">&lt;div class="container nav-content"&gt;</p>
+<p class="p1">&lt;h3&gt;Iris Wang&lt;/h3&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="nav-links"&gt;</p>
+<p class="p1">&lt;a href="#about"&gt;About&lt;/a&gt;</p>
+<p class="p1">&lt;a href="#projects"&gt;Projects&lt;/a&gt;</p>
+<p class="p1">&lt;a href="#experience"&gt;Experience&lt;/a&gt;</p>
+<p class="p1">&lt;a href="#math"&gt;Mathematics&lt;/a&gt;</p>
+<p class="p1">&lt;a href="#athletics"&gt;Athletics&lt;/a&gt;</p>
+<p class="p1">&lt;a href="#contact"&gt;Contact&lt;/a&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;header class="hero"&gt;</p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h1&gt;Yutong (Iris) Wang&lt;/h1&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Williams College Class of 2030 • Mathematics &amp; Economics •</p>
+<p class="p1">Data Science • Machine Learning • Competition Mathematics</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="buttons"&gt;</p>
+<p class="p1">&lt;a class="btn primary" href="#"&gt;Resume&lt;/a&gt;</p>
+<p class="p1">&lt;a class="btn secondary" href="#"&gt;LinkedIn&lt;/a&gt;</p>
+<p class="p1">&lt;a class="btn secondary" href="#"&gt;GitHub&lt;/a&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="about"&gt;</p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;About Me&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">I am a student at Williams College pursuing interests in mathematics,</p>
+<p class="p1">economics, data science, machine learning, and quantitative finance.</p>
+<p class="p1">My academic work combines mathematical rigor with practical data-driven</p>
+<p class="p1">problem solving.</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Outside the classroom, I compete as a member of the</p>
+<p class="p1">&lt;span class="highlight"&gt;Williams College Varsity Swim &amp; Dive Team&lt;/span&gt;</p>
+<p class="p1">and have spent seven years competing in Junior Olympic diving.</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="projects"&gt;</p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;Projects &amp; Research&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="grid"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;Visionet Data &amp; AI Internship&lt;/h3&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Developed machine learning models for product-return prediction and</p>
+<p class="p1">sales forecasting using Random Forest and XGBoost.</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt;103 transaction records analyzed&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;70% classification accuracy&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;25% forecasting improvement&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;API deployment and testing&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;Earthquake Forecasting Research&lt;/h3&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Conducted a year-long study of 15,000+ historical earthquake records</p>
+<p class="p1">using statistical modeling and machine learning techniques.</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt;Time-series analysis&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;Regression modeling&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;Probability distributions&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;Published October 2024&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="experience"&gt;</p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;Experience&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;Visionet | Data &amp; AI Intern&lt;/h3&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Built predictive machine learning models, performed feature engineering,</p>
+<p class="p1">forecasting analysis, and API deployment.</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;Areteem | Curriculum Development Intern&lt;/h3&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Reviewed and improved middle-school mathematics curriculum materials.</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;AMC Preparation Program | Founder &amp; Instructor&lt;/h3&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Founded an online AMC preparation program serving more than 100 students.</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="math"&gt;</p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;Mathematics&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt;USA Mathematical Olympiad (USAMO) Qualifier — 2025&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;USA Junior Mathematical Olympiad (USAJMO) Qualifier — 2024&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;MAA Young Women in Mathematics Certificate of Excellence — 2024, 2025&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;Scarsdale Math Team Officer&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;Advanced Mathematics Independent Study&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="athletics"&gt;</p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;Athletics&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;Williams College Varsity Swim &amp; Dive&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;NCAA Division III Student-Athlete&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;New York Dive Club&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;Junior Olympic Diver (2019–2026)&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;Scarsdale High School Swim &amp; Dive&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">NYS Section I Diving Champion • All-Section • Team Captain</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="contact"&gt;</p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;Contact&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Email: iris.wang.yutong@gmail.com</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Scarsdale, New York</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;footer&gt;</p>
+<p class="p1">&lt;p&gt;© 2026 Yutong (Iris) Wang&lt;/p&gt;</p>
+<p class="p1">&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
