@@ -21,10 +21,12 @@ html{
 body{
   font-family:'Inter',sans-serif;
   color:#222;
-  background:#fafafa;
+  background:
+    radial-gradient(circle at top right, rgba(79,38,131,0.08), transparent 30%),
+    #fafafa;
   line-height:1.7;
 }
-
+  
 .container{
   width:90%;
   max-width:1100px;
@@ -58,8 +60,12 @@ nav{
   font-weight:500;
 }
 
+.nav-links a:hover{
+  color:#4f2683;
+}
+
 .hero{
-  padding:120px 0 80px;
+  padding:90px 0 50px;
 }
 
 .hero h1{
@@ -89,6 +95,12 @@ nav{
   text-decoration:none;
   border-radius:8px;
   margin-right:12px;
+  transition:all .2s ease;
+}
+
+.button:hover{
+  transform:translateY(-1px);
+  opacity:.92;
 }
 
 .button-secondary{
@@ -98,21 +110,40 @@ nav{
 }
 
 section{
-  padding:80px 0;
+  padding:50px 0;
 }
 
 .section-title{
   font-size:2rem;
-  margin-bottom:30px;
+  margin-bottom:24px;
   color:#4f2683;
+  position:relative;
+  display:inline-block;
+}
+
+.section-title:after{
+  content:"";
+  display:block;
+  width:50%;
+  height:3px;
+  background:#4f2683;
+  margin-top:8px;
+  border-radius:999px;
 }
 
 .card{
   background:white;
-  padding:25px;
-  border-radius:12px;
-  margin-bottom:20px;
-  box-shadow:0 2px 8px rgba(0,0,0,0.05);
+  padding:24px;
+  border-radius:16px;
+  margin-bottom:16px;
+  border:1px solid #ececec;
+  box-shadow:0 10px 25px rgba(0,0,0,0.04);
+  transition:all .2s ease;
+}
+
+.card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 35px rgba(0,0,0,0.08);
 }
 
 .card h3{
@@ -164,8 +195,9 @@ footer{
 <a href="#about">About</a>
 <a href="#education">Education</a>
 <a href="#projects">Projects</a>
+<a href="#research">Research</a>
 <a href="#experience">Experience</a>
-<a href="#math">Math</a>
+<a href="#math">Mathematics</a>
 <a href="#athletics">Athletics</a>
 </div>
 </div>
@@ -176,7 +208,7 @@ footer{
 
 <h1>Yutong (Iris) Wang</h1>
 
-<h2>Williams College • Mathematics & Economics • Data Science</h2>
+<h2>Williams College Class of 2030 • Mathematics & Economics • Student-Athlete</h2>
 
 <p>
 I am a student-athlete at Williams College interested in mathematics,
@@ -239,14 +271,14 @@ be used to solve practical problems.
 
 <div class="card">
 <h3>Williams College</h3>
-<p>B.A. Candidate, Class of 2030</p>
+<p><strong>B.A. Candidate</strong>, Expected May 2030</p>
 <p>Prospective Major: Mathematics and Economics</p>
 <p>Current Coursework: Discrete Mathematics, Environmental Economics, Data Structures & Advanced Programming, Literary Origins</p>
 </div>
 
 <div class="card">
 <h3>Scarsdale High School</h3>
-<p>GPA: 4.22</p>
+<p><strong>GPA:</strong> 4.22 unweighted</p>
 <p>Thirteen AP Exams with scores of 5</p>
 <p>Relevant Coursework: Multivariable Calculus, Statistics, Linear Algebra</p>
 </div>
@@ -292,7 +324,7 @@ be used to solve practical problems.
 <li>Applied statistical modeling, regression techniques, probability distributions, and time-series analysis to investigate patterns in earthquake occurrence and magnitude.</li>
 <li>Examined relationships among seismic activity, depth, geographic location, and frequency to better understand long-term earthquake trends.</li>
 <li>Explored forecasting approaches for seismic events using quantitative methods and data-driven analysis.</li>
-<li>Authored and published findings in <em>Intelligence Planet Journal</em> (Vol. 1, No. 3, October 2024). :contentReference[oaicite:0]{index=0}</li>
+<li>Authored and published findings in <em>Intelligence Planet Journal</em> (Vol. 1, No. 3, October 2024).</li>
 <li>
 <a href="https://ojs.zefr.org/index.php/intplanet/issue/view/3" target="_blank">
 View Publication →
@@ -343,7 +375,7 @@ Founded and led an online AMC 8 preparation program serving more than 100 studen
 <li>USA Mathematical Olympiad (USAMO) Qualifier — 2025</li>
 <li>USA Junior Mathematical Olympiad (USAJMO) Qualifier — 2024</li>
 <li>MAA Young Women in Mathematics Certificate of Excellence — 2024 & 2025</li>
-<li>Scarsdale Math Team Officer & NY State Math League Division B Champion 2024 & 2025</li>
+<li>Scarsdale Math Team Officer • NY State Math League Division B Champion (2024, 2025)</li>
 </ul>
 </div>
 
@@ -376,8 +408,7 @@ NYS Section I Diving Champion (2024) • All-Section Award Recipient (2023–202
 </section>
 
 <footer>
-<p>© 2026 Yutong (Iris) Wang</p>
+<p>Yutong (Iris) Wang • Williams College Class of 2030</p>
 </footer>
-
 </body>
 </html>
